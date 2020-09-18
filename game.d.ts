@@ -1,9 +1,9 @@
-import { ArcRotateCamera, Engine, Light, Scene } from 'babylonjs';
-import { AdvancedDynamicTexture } from 'babylonjs-gui';
-import Ball from './components/objects/ball';
-import Paddle from './components/objects/paddle';
-import Wall from './components/objects/wall';
-import { ILabel } from './components/label';
+import { ArcRotateCamera, Engine, Light, Scene } from "babylonjs";
+import { AdvancedDynamicTexture } from "babylonjs-gui";
+import Ball from "./components/objects/ball";
+import Paddle from "./components/objects/paddle";
+import Wall from "./components/objects/wall";
+import { ILabel } from "./components/label";
 export default class Game {
     _canvas: HTMLCanvasElement;
     _engine: Engine;
